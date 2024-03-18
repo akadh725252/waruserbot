@@ -4,7 +4,7 @@
 _hell_zip () {
     if [[ $GIT_REPO ]]
     then
-        echo "https://github.com/${GIT_REPO}/archive/master.zip"
+        echo "https://github.com/akadh725252/Plugins-T/archive/master.zip"
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL3dhcnVzZXJib3QvUGx1Z2lucy1UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
